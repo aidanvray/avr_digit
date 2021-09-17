@@ -1,6 +1,6 @@
 start = root
 root = element Ozymandias {layer}
-layer = element layer {mixed { lb+ , agent , layer* , ellipsis?}}
+layer = element layer {agent , mixed { (lb | layer | ellipsis)* }}
 agent = attribute  agent {text}
 lb = element lb {n}
 n = attribute n {xsd:integer}
