@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="ozy-hw.rnc" type="application/relax-ng-compact-syntax"?>
 <Ozymandias>
     <layer agent="I">
         <lb n="1"/>I met a traveller from an antique land,
