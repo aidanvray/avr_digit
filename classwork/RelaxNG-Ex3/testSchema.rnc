@@ -1,0 +1,29 @@
+start = test
+test = element test { docInfo , body }
+
+docInfo = element docInfo { title , subtitle , author , publication , pubDate , copyright }
+title = element title {text}
+subtitle = element subtitle {text}
+author = element author { id , text }
+id = attribute id {text}
+publication = element publication { type , target , text }
+type = attribute type {text}
+target = attribute target {text}
+pubDate = element pubDate {when}
+when = attribute when {text}
+copyright = element copyright {text}
+
+body = element body {p +}
+p = element p { mixed { ( quote | duration | persName | orgName | event | codeSpec | rs | date ) * }}
+quote = element quote { source , text }
+source = attribute source {text}
+duration = element duration { quantity , unit , text }
+quantity = attribute quantity {text}
+unit = attribute unit {text}
+persName = element persName {text}
+orgName = element orgName {text}
+event = element event { when ? , mixed { date ? , codeSpec ? }}
+date = element date { when , text }
+codeSpec = element codeSpec {text}
+rs = element rs { type , ref , text }
+ref = attribute ref {text}
