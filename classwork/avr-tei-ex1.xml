@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      
+     <body>
+         <p>COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO. NEW BRITAIN, CONN.</p>
+        <p>March 12, 1909. Friday</p>
+        <p>MOLLY ON SNOWSHOES THAT MR. WEIR GOT. PRETTY PICTURE IS IT NOT?!</p>
+        <p>Love from Molly.</p>
+      </body>
+  </text>
+   
+   <text>
+      <body>
+         <p>COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO. NEW BRITAIN, CONN.</p>
+         <p>March 17, 1909. Wednesday St. Patrick's Day</p>
+         <p>St. PATRICK WAS A USEFUF SAINT HE FRIGHTENED ALL THE SNAKES AWAY - I WISH HE'D TRY HIS ART ON SMOKE AROUND HAMMERMILL SOMEDAY!</p>
+         <p>The Hammermill ?</p>
+      </body>
+   </text>
+</TEI>
