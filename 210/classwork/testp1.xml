@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <!-- This is the script for the expostion in chapter 1 of Fire Emblem 3 Houses -->
+    <exposition narrator="Jeralt">
+        <gtm img="https://i.ytimg.com/vi/HgY_hq45hj0/maxresdefault.jpg">
+            <title>Great Tree Moon</title>
+            <line>The icy winds of the <geo type="mount">Oghma Mountains</geo> have begun to
+                scatter,</line>
+            <line>and the verdant fields once again spring to life across <continent name="Fodlan"
+                    >Fódlan</continent>,</line>
+            <line>heralding the start of a new year.</line>
+            <line>As they celebrate the dawning year, the people pray</line>
+            <line>that they may realize their full potential, just as a tiny sprout hopes to</line>
+            <line>one day grow into a great tree.</line>
+        </gtm>
+
+        <map
+            img="https://static.wikia.nocookie.net/fireemblem/images/7/71/Fodlan_worldmap_presskit.webp/revision/latest/scale-to-width-down/1000?cb=20210716074648">
+            <line>The continent of <continent name="Fodlan">Fódlan</continent>, said to be protected
+                by a revered goddess, has existed since time immemorial. Three ruling powers now
+                control the land.</line>
+            <line>In the <direction>south</direction> lies a region long held by a more than
+                one-thousand-year-old dynasty–the <nation name="Adrestian Empire">Adrestian
+                    Empire</nation>.</line>
+            <line>Beyond its borders, to the frigid <direction>north</direction>, is the home of the
+                    <nation name="Faerghus">Holy Kingdom of Faerghus</nation>, ruled by the royal
+                family and its knights.</line>
+            <line>To the east, a league of nobles that heeds no king nor emperor rules what is
+                called the <nation name="Leicester Alliance">Leicester Alliance</nation>.</line>
+            <line>Once consumed by a tempest of war and turmoil, <continent name="Fodlan"
+                    >Fódlan</continent> and these three mighty powers now exist in relative
+                harmony.</line>
+        </map>
+    </exposition>
+</xml>
